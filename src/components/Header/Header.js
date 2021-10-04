@@ -7,7 +7,7 @@ const Header = () => {
     // nav active style
     const activeStyle = {
         fontWeight: 500,
-        color: "red"
+        color: "tomato"
     }
     return (
         <div className="nav-bar">

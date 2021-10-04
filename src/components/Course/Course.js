@@ -4,21 +4,20 @@ import Rating from 'react-rating';
 import './Course.css'
 
 const Course = (props) => {
-    const { title, img, lession, price, rating } = props.course
+    const { title, img, lession, price, rating, description } = props.course
     return (
         <div>
             <Col>
                 <Card className="service-card">
                     <Card.Img className="cd-img" variant="top" src={img} />
                     <Card.Body>
-                        <Card.Title>{title}</Card.Title>
+                        <h1 className="course-title">{title}</h1>
                         <Card.Text>
-                            This is a longer card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit longer.
+                            {description.slice(0, 150)}
                         </Card.Text>
                         <div className="d-flex">
                             <p className="me-4"><i class="fas fa-play-circle play-icon"></i>Lession: {lession}</p>
-                            <p className="me-4">Price: ${price}</p>
+                            <p className="me-4">Price: <span className="price">${price}</span> </p>
 
                             <Rating className="rating me-1"
                                 initialRating={rating}
@@ -29,7 +28,7 @@ const Course = (props) => {
                             </Rating>
                             (<p>{rating}</p>)
                         </div>
-                        <Button className="btn btn-danger mt-3">Enroll Now</Button>
+                        <button className="btn-enroll mt-3">Enroll Now</button>
                     </Card.Body>
                 </Card>
             </Col>

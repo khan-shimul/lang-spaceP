@@ -1,0 +1,43 @@
+.bg-about{
+    background-color: rgb(239, 242, 245);
+}
+
+.detils{
+    /* background-color: red; */
+    /* font-size: 19px;
+    font-weight: 700; */
+    font-size: 25px;
+}
+.title-about{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(10, 113, 231);
+}
+.details-text{
+    color: rgb(70, 76, 92);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.details-icon{
+    font-synthesis: 50px;
+}
+
+.icon{
+    color: royalblue;
+    font-size: 32px;
+}
+
+.ceo-container{
+    background-color: rgb(232, 229, 250);
+    padding: 60px;
+}
+
+.ceo-div{
+    border: 3px solid rgb(234, 245, 248);
+    border-radius: 5px;
+}
+
+.ceo-img{
+    height: 200px;
+}

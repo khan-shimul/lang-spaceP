@@ -1,0 +1,14 @@
+.courses-card{
+    height: 520px;
+}
+
+.course-title{
+    font-size: 30px;
+    color: #2B4EFF;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 600;
+    color: #2B4EFF;
+}

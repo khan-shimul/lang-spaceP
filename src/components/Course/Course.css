@@ -1,10 +1,16 @@
 .service-card{
-    height: 540px;
+    height: 490px;
 }
 
 .cd-img{
-    height: 300px;
+    height: 250px;
     object-fit: cover;
+    padding: 10px;
+}
+
+.course-title{
+    font-size: 30px;
+    color: #2B4EFF;
 }
 
 .play-icon{
@@ -15,4 +21,16 @@
 
 .rating{
     color: #FF9415;
+}
+
+.btn-enroll{
+    background-color: #FF7C54;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 18px;
+    color: white;
+    transition: 0.4s;
+}
+.btn-enroll:hover{
+    background-color: #ff683a;
 }

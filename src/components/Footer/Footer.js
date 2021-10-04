@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer-container overflow-hidden">
-                <div className="row footer p-5 mt-4">
+                <div className="row footer p-5">
                     <div className="col-md-4">
                         <h1>Lang_Space</h1>
                         <p className="short-footer">Lang Space is a Language learning platform. So Learn New Languages  And Move Forward</p>

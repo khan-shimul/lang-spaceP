@@ -2,6 +2,7 @@
     {
         "cId": 301,
         "title": "English For Beginner",
+        "description": "This is for the absoulte beginner. Here are seven ways to start teaching English to beginners, step by step. So why wait? Press the Enroll Button. English courses can be helpful for improving your fluency in speaking, polishing your writing skills and targeting specific skills you need for a particular social or professional environment. Such courses can also be enjoyable and enriching.",
         "lession": 36,
         "price": 82,
         "rating": 4.6,
@@ -11,6 +12,7 @@
     {
         "cId": 302,
         "title": "English For Intermediate",
+        "description": "English courses can be helpful for improving your fluency in speaking, polishing your writing skills and targeting specific skills you need for a particular social or professional environment. Such courses can also be enjoyable and enriching.",
         "lession": 22,
         "price": 99,
         "rating": 4.1,
@@ -20,6 +22,7 @@
     {
         "cId": 303,
         "title": "French For Beginner",
+        "description": "The Basic French Language course is divided in two levels: beginner (Level A1) and elementary (Level A2). Both the levels will help create the foundation in the learners of the French language.  After basic user of French language comes the independent user. This is also divided into two levels; level B1 for Intermediate users and Level B2 for Upper Intermediate users. The French language course levels",
         "lession": 17,
         "price": 140,
         "rating": 3.9,
@@ -29,6 +32,7 @@
     {
         "cId": 304,
         "title": "French For Intermediate",
+        "description": "Here you will learn advanced French lan. The Basic French Language course is divided in two levels: beginner (Level A1) and elementary (Level A2). Both the levels will help create the foundation in the learners of the French language.  After basic user of French language comes the independent user. This is also divided into two levels; level B1 for Intermediate users and Level B2 for Upper Intermediate users. The French language course levels",
         "lession": 29,
         "price": 82,
         "rating": 4.3,
@@ -38,6 +42,7 @@
     {
         "cId": 305,
         "title": "Spanish For Beginner",
+        "description": "Multiple career paths like tourism, foreign service, translation, interpretation, language teaching, journalism, and international business proficiency in spoken and written Spanish can be valuable assets. After learning Spanish, you can work as a language specialist in the export and import industry.",
         "lession": 17,
         "price": 160,
         "rating": 4,
@@ -47,6 +52,7 @@
     {
         "cId": 306,
         "title": "Spanish For Intermediate",
+        "description": "Here you will learn advanced Spanish lan. Multiple career paths like tourism, foreign service, translation, interpretation, language teaching, journalism, and international business proficiency in spoken and written Spanish can be valuable assets. After learning Spanish, you can work as a language specialist in the export and import industry.",
         "lession": 24,
         "price": 199,
         "rating": 4.8,
@@ -56,6 +62,7 @@
     {
         "cId": 307,
         "title": "Chinese For Beginner",
+        "description": "Chinese language skills open up just over 1.3 billion people across China! Learning Mandarin gives you access to communicate with many people and connect on a deeper level, not just in Asia but across the world! Studies suggest that learning Chinese uses more parts of the brain than are required for other languages.",
         "lession": 31,
         "price": 220,
         "rating": 4.5,
@@ -65,6 +72,7 @@
     {
         "cId": 308,
         "title": "Chinese For Intermediate",
+        "description": "Why is it important to learn Chinese language? Chinese language skills open up just over 1.3 billion people across China! Learning Mandarin gives you access to communicate with many people and connect on a deeper level, not just in Asia but across the world! Studies suggest that learning Chinese uses more parts of the brain than are required for other languages.",
         "lession": 27,
         "price": 249,
         "rating": 4.2,
@@ -74,6 +82,7 @@
     {
         "cId": 309,
         "title": "Advance Japanese Course",
+        "description": "Learning Japanese will help you to appreciate your own culture as well as your own language because it improves your communication and cognitive skills. Accessing a culture that is very different from yours will heighten your awareness that cultures and languages vary.",
         "lession": 42,
         "price": 999,
         "rating": 4.8,
