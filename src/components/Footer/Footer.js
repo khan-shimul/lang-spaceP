@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="col-md-4">
                         <h1>Lang_Space</h1>
                         <p className="short-footer">Lang Space is a Language learning platform. So Learn New Languages  And Move Forward</p>
-                        <p><small>All reserved &copy Copyright 2021 - 2025 </small></p>
+                        <p><small>All reserved <span>&copy;</span> Copyright 2021 - 2025 </small></p>
                     </div>
                     <div className="col-md-4 text-center">
                         <h1>Links</h1>
