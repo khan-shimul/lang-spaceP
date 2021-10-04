@@ -6,6 +6,14 @@ import './About.css'
 const About = () => {
     return (
         <div className="overflow-hidden">
+            <div className="about-uss d-flex justify-content-center align-items-center text-white text-center">
+                <div>
+                    <h1 className="text-center">About Us</h1>
+                    <p className="about-sub text-center">Online learning is education that takes place over the Internet. It is often referred to as “elearning” among other terms. However, online learning is just one type of “distance learning” -
+                        the umbrella term for any learning that takes place across distance and not in a traditional
+                        classroom.</p>
+                </div>
+            </div>
             <div className="row d-flex align-items-center bg-about">
                 <div className="col-md-5">
                     <img className="w-100" src={aboutImg} alt="" />

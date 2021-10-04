@@ -1,0 +1,47 @@
+/* .contact-container{
+    border: 3px solid salmon;
+} */
+.contact{
+    background-image: url("https://thumbs.dreamstime.com/b/call-center-service-customer-support-phone-sales-operator-copy-space-call-center-service-customer-support-phone-sales-female-202973523.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    background-blend-mode: overlay;
+}
+
+.support-title{
+    font-size: 55px;
+    font-weight: 700;
+}
+.form-container{
+    padding: 30px;
+    border: 2px solid rgb(252, 247, 247);
+    border-radius: 3px;
+    box-shadow: 4px 4px 7px #e2e2e2;
+}
+
+.frm{
+    padding: 20px;
+}
+
+.address-icon{
+    color: rgb(19, 53, 145);
+    font-size: 25px;
+}
+
+.address-text{
+    font-size: 18px;
+    color: #333957;
+    font-weight: 500;
+
+}
+
+.chat{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(31, 29, 110);
+}
