@@ -1,0 +1,12 @@
+.service-card{
+    height: 540px;
+}
+
+.cd-img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.rating{
+    color: #FF9415;
+}

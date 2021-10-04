@@ -1,11 +1,24 @@
 import React from 'react';
 import './Home.css'
 import bannerImg from '../../images/hero-img-01.png'
+import { useEffect } from 'react';
+import { useState } from 'react';
+import Course from '../Course/Course';
+import { Row } from 'react-bootstrap';
 
 const Home = () => {
+    const [courses, setCourses] = useState([])
+
+    // Load data
+    useEffect(() => {
+        fetch('./courses.JSON')
+            .then(res => res.json())
+            .then(data => setCourses(data))
+    }, [])
+
     return (
         <div>
-            {/* banner section */}
+            {/* Banner section */}
             <section className="hero-section">
                 <div className="row d-flex align-items-center mx-4">
                     <div className="col-md-6">
@@ -17,6 +30,23 @@ const Home = () => {
                         <img className="banner-img" src={bannerImg} alt="" />
                     </div>
                 </div>
+            </section>
+            {/* Services */}
+            <section className="service-container m-4">
+                <h1 className="choose-title my-3">Choose Your Language</h1>
+
+                <Row xs={1} md={2} className="g-4">
+
+                    {
+                        courses.slice(0, 4).map(course => <Course
+                            key={course.cId}
+                            course={course}
+                        />)
+                    }
+
+                </Row>
+
+
             </section>
         </div>
     );
