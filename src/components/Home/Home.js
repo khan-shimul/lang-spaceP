@@ -1,20 +1,13 @@
 import React from 'react';
 import './Home.css'
 import bannerImg from '../../images/hero-img-01.png'
-import { useEffect } from 'react';
-import { useState } from 'react';
 import Course from '../Course/Course';
 import { Row } from 'react-bootstrap';
+import useCourses from '../../hooks/useCourses/useCourses';
 
 const Home = () => {
-    const [courses, setCourses] = useState([])
-
     // Load data
-    useEffect(() => {
-        fetch('./courses.JSON')
-            .then(res => res.json())
-            .then(data => setCourses(data))
-    }, [])
+    const [courses] = useCourses()
 
     return (
         <div>
