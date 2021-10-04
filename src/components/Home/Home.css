@@ -1,0 +1,25 @@
+.banner-img{
+    width: 100%;
+    height: 600px;
+}
+
+.hero-section{
+    background-color: #EEEDFE;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 60px;
+    color: #111F62;
+}
+.line{
+    width: 100px;
+    height: 5px;
+    background-color: tomato;
+}
+
+.sub-text{
+    font-size: 15px;
+    color: #5f5f7c;
+    margin-top: 20px;
+}
