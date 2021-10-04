@@ -17,7 +17,7 @@ const Course = (props) => {
                             lead-in to additional content. This content is a little bit longer.
                         </Card.Text>
                         <div className="d-flex">
-                            <p className="me-4">Lession: {lession}</p>
+                            <p className="me-4"><i class="fas fa-play-circle play-icon"></i>Lession: {lession}</p>
                             <p className="me-4">Price: ${price}</p>
 
                             <Rating className="rating me-1"

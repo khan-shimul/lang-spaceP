@@ -22,6 +22,11 @@
     color: tomato;
 }
 
+.cart{
+    color: #252941;
+    font-size: 18px;
+}
+
 .search-field{
     /* border: 1px solid #b1b1b1; */
     border: none;

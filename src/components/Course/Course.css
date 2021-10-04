@@ -7,6 +7,12 @@
     object-fit: cover;
 }
 
+.play-icon{
+    color: #5754F7;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
 .rating{
     color: #FF9415;
 }

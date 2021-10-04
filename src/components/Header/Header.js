@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import logo from '../../images/logo2.png'
 import './Header.css'
 
@@ -29,9 +29,8 @@ const Header = () => {
                     >Contact</NavLink>
                 </div>
                 <div>
-                    <NavLink to="/home"
-                        activeStyle={activeStyle}
-                    >Cart</NavLink>
+                    <Link to="/home"
+                    ><i class="fas fa-shopping-cart cart"></i></Link>
                     <input className="search-field" type="text" placeholder="Eng..." />
                     <button className="btn-regular ms-2">Search</button>
 
