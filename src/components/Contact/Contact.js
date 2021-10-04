@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Form, Button } from 'react-bootstrap';
+import { TaglineContext } from '../../App';
 import './Contact.css'
 
 const Contact = () => {
+    const tagline = useContext(TaglineContext)
     return (
         <div className="contact-container overflow-hidden">
             <div className="contact d-flex align-items-center">
@@ -36,6 +38,7 @@ const Contact = () => {
                                 <p className="address-text">space@gmail.com</p>
                             </div>
                         </div>
+                        <small className="text-success text-center ms-5">{tagline}</small>
                     </address>
                 </div>
                 <div className="col-md-6 form-container">
@@ -43,19 +46,15 @@ const Contact = () => {
                     <Form className="frm">
 
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            {/* <Form.Label>Your Name</Form.Label> */}
                             <Form.Control type="email" placeholder="Your Name" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            {/* <Form.Label>Your Name</Form.Label> */}
                             <Form.Control type="email" placeholder="Your Email" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            {/* <Form.Label>Your Name</Form.Label> */}
                             <Form.Control type="email" placeholder="Subject" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            {/* <Form.Label>Example textarea</Form.Label> */}
                             <Form.Control as="textarea" rows={5} placeholder="Your Message" />
                         </Form.Group>
                     </Form>

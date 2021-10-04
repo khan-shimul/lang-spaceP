@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import logo from '../../images/logo2.png'
+import logo from '../../images/logo.png'
 import './Header.css'
 
 const Header = () => {
@@ -10,11 +10,11 @@ const Header = () => {
         color: "tomato"
     }
     return (
-        <div className="nav-bar">
+        <div className="nav-bar px-5">
             <div className="d-flex align-items-center justify-content-between">
                 <div>
                     <NavLink className="text-logo" to="/home"
-                    >Lang_Space</NavLink>
+                    ><img className="logo" src={logo} alt="" /></NavLink>
                     <NavLink to="/home"
                         activeStyle={activeStyle}
                     >Home</NavLink>
@@ -31,7 +31,7 @@ const Header = () => {
                 <div>
                     <Link to="/home"
                     ><i class="fas fa-shopping-cart cart"></i></Link>
-                    <input className="search-field" type="text" placeholder="Eng..." />
+                    <input className="search-field" type="text" placeholder="Search for..." />
                     <button className="btn-regular ms-2">Search</button>
 
                 </div>
