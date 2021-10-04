@@ -9,9 +9,19 @@
         width: 100%;
         background-blend-mode: overlay;
     }
+.about-title{
+    font-size: 50px;
+}
+
+.line-about{
+    width: 50px;
+    height: 2px;
+    background-color: tomato;
+}
 
 .about-sub{
-    margin: 0px 100px;
+    margin: 0px 150px;
+    font-size: 15px;
 }
 .bg-about{
     background-color: rgb(239, 242, 245);
@@ -32,6 +42,18 @@
     color: rgb(70, 76, 92);
     font-size: 22px;
     font-weight: 600;
+}
+
+.ceo-name{
+    font-size: 28px;
+    font-weight: 700;
+    color: #4A4366;
+    margin-bottom: 0;
+}
+.ceo-line{
+    height: 2px;
+    width: 48px;
+    background-color: tomato;
 }
 
 .details-icon{

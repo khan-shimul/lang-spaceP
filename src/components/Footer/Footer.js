@@ -9,12 +9,12 @@ const Footer = () => {
             <div className="footer-container overflow-hidden">
                 <div className="row footer p-5">
                     <div className="col-md-4">
-                        <h1>Lang_Space</h1>
+                        <h1 className="f-title">Lang_Space</h1>
                         <p className="short-footer">Lang Space is a Language learning platform. So Learn New Languages  And Move Forward</p>
                         <p><small>All reserved <span>&copy;</span> Copyright 2021 - 2025 </small></p>
                     </div>
                     <div className="col-md-4 text-center">
-                        <h1>Links</h1>
+                        <h1 className="f-title">Links</h1>
                         <div className="links d-flex flex-column">
                             <Link to="/home"
                             >Home</Link>
@@ -27,7 +27,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <h1>Subscribe</h1>
+                        <h1 className="f-title">Subscribe</h1>
                         <InputGroup className="mb-3 w-75">
                             <FormControl className="py-2"
                                 placeholder="Your email"

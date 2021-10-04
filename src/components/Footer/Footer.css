@@ -1,6 +1,11 @@
 .footer{
     background-color: #0E1133;
-    color: white;
+    color: #B8B6C0;
+}
+
+.f-title{
+    font-size: 37px;
+    color: #E9E8EE;
 }
 
 .short-footer{
@@ -9,8 +14,9 @@
 
 .links a{
     text-decoration: none;
-    color: white;
+    color: #B8B6C0;
+    transition: 0.3s;
 }
 .links a:hover{
-    color: thistle;
+    color: #dfdfdf;
 }

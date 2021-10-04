@@ -8,7 +8,8 @@ const About = () => {
         <div className="overflow-hidden">
             <div className="about-uss d-flex justify-content-center align-items-center text-white text-center">
                 <div>
-                    <h1 className="text-center">About Us</h1>
+                    <h1 className="text-center about-title">About</h1>
+                    <div className="line-about d-flex mx-auto mb-2"></div>
                     <p className="about-sub text-center">Online learning is education that takes place over the Internet. It is often referred to as “elearning” among other terms. However, online learning is just one type of “distance learning” -
                         the umbrella term for any learning that takes place across distance and not in a traditional
                         classroom.</p>
@@ -54,8 +55,10 @@ const About = () => {
                                 <img className="ceo-img" src={ceo} alt="" />
                             </div>
                             <div className="ceo-details ms-4">
-                                <h2>John Smith</h2>
-                                <p>Founder nd CEO <br /><small>California, USA</small></p>
+                                <h2 className="ceo-name">Michel John</h2>
+                                <small className="ceo-title">Founder</small>
+                                <div className="ceo-line"></div>
+                                <small>New Street 81/2, California, USA</small>
                             </div>
                         </div>
                     </div>

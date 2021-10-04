@@ -19,7 +19,7 @@
 }
 
 .nav-bar a:hover{
-    color: tomato;
+    color: #515eee;
 }
 
 .cart{
@@ -42,8 +42,13 @@
 
 .btn-regular{
     background-color: #5744CB;
-    padding: 8px 14px;
+    padding: 7px 15px;
     border: none;
     border-radius: 5px;
     color: white;
+    transition: 0.3s;
+}
+
+.btn-regular:hover{
+    background-color: #4736bb;
 }
