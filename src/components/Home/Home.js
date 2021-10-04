@@ -33,7 +33,8 @@ const Home = () => {
             </section>
             {/* Services */}
             <section className="service-container m-4">
-                <h1 className="choose-title my-3">Choose Your Language</h1>
+                <h1 className="choose-title">Our Courses</h1>
+                <div className="line2 mb-3"></div>
 
                 <Row xs={1} md={2} className="g-4">
 
