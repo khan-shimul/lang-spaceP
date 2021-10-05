@@ -1,10 +1,16 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import Rating from 'react-rating';
+import { useHistory } from 'react-router';
 import './Course.css'
 
 const Course = (props) => {
     const { title, img, lession, price, rating, description } = props.course
+    const history = useHistory()
+
+    const handleEnroll = () => {
+        history.push('/enrolled')
+    }
     return (
         <div>
             <Col>
@@ -28,7 +34,7 @@ const Course = (props) => {
                             </Rating>
                             (<p>{rating}</p>)
                         </div>
-                        <button className="btn-enroll mt-3">Enroll Now</button>
+                        <button onClick={handleEnroll} className="btn-enroll mt-3">Enroll Now</button>
                     </Card.Body>
                 </Card>
             </Col>
