@@ -13,6 +13,7 @@ import Services from './components/Services/Services';
 export const TaglineContext = createContext('belive');
 
 function App() {
+  // context api
   const tagline = 'We Believe In Quality, Not Quantity!'
   return (
     <TaglineContext.Provider value={tagline}>
